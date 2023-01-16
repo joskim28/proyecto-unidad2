@@ -1,0 +1,89 @@
+<!--comienzo-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--comienzo de head (cabeza de la pagina)-->
+<head>  
+    <!--Etiquetas "meta" ayudan a visualizar caracteres especiales y mas. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links script.-->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+   <!--Link icon puedes poner un icono en tu pestaña superior.-->
+    <link rel="icon" href="https://i.pinimg.com/originals/70/da/7c/70da7ceef81c8a8310ed8e6bed6d90d9.png">
+<!--Links "fuentes de letras" -->
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Cutive Mono' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Chivo Mono' rel='stylesheet'>
+<!--Sirve para vincular el estilo con el html-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!--Titulo visible en la pestaña superior de la pagina.-->
+    <title>Sigilo</title>
+
+    <!--final de cabeza-->
+</head>
+<body class="body1"> <!--comienzo de body (cuerpo de la pagina)-->
+    
+ <!--divs-->
+    <div>
+        
+        <img class="img" src="https://mail.google.com/mail/u/0?ui=2&ik=b045e0c303&attid=0.1&permmsgid=msg-f:1754774713501695012&th=185a364e031b3c24&view=fimg&realattid=f_lcsbqyp50&disp=thd&attbid=ANGjdJ_JJv8o5jb9-7ZeXoKsOe7xlspRnXpBSvcKpRcdtiiRG4H72P7VjsHMM9O_p1pOVVql0Q8gVsg2Q36E2VW78IJBji7PzLSRpVuaijMTTyCyHx_hcKpX7YAgPjM&ats=2524608000000&sz=w1280-h881" alt="titulo" width="15%">
+        
+</div> 
+
+    <div class="div2"> 
+            
+            <label class="letra">texto:</label>
+    <input class="letra1" type="text" id="msg">
+    <br>
+    <br>
+    <label class="letra" >  Contraseña:</label>
+    <input class="letra1" type="password" id="pass">
+    <br>
+    <br>
+    <!--botones con funciones importantes-->
+    <button class="boton" onclick="encriptar()"> <img src="https://img.icons8.com/ios/512/closed-sign.png" alt="can" width="50px">  </button>
+<br>
+<br>
+<!--demo1-->
+<label class="letra" >Mensaje secreto:<span id="demo1"></span></label><b></b>&nbsp;<span id="enlace"></span>
+
+<button id="copiador" class="boton" ><img src="https://img.icons8.com/material-outlined/512/copy.png" alt="can" width="20px"></button>
+</div>
+<br>
+<br>
+    <div class="div1"> 
+        
+<label class="letra" >Mensaje codigo:</label>
+<input class="letra1" type="text" id="msgcodigo">
+<br>
+<br>
+ <!--botones con funciones importantes-->
+<button  class="boton" onclick="desencriptar()"> <img src="https://img.icons8.com/ios/512/open-sign.png" alt="can" width="50px"></button>
+<br>
+<br>
+<strong>
+    <label class="letra" >Mensaje no tan secreto:</label></strong>
+
+    <!--demo2-->
+<span id="demo2"></span>
+<br>
+<br>
+<span id="error"></span>
+</div>
+
+ <!--puedes vincular el scrit.js con tu index.html-->   
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="asset/js/scrit.js"></script>
+
+</body><!--final de body-->
+
+<footer> <!--comienzo de footer (pie de la pegina)-->
+     
+    <div class="hola"><p ><img src="https://img.icons8.com/ios/512/private2.png" alt="candado" width="23px">  Todos los derechos reservados © Top secret rosies | Topsecret11@gmail.com </p> </div>
+   
+   
+</footer> <!--final de footer-->
+</html>

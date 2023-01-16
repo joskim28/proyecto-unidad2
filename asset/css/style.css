@@ -1,0 +1,95 @@
+.body1{
+    background-image: url(https://i.ibb.co/7S8nknm/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.letra{
+    font-family: 'Chivo Mono';font-size: 22px;
+}
+.letra1{
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(175, 155, 112, 0.473);
+    font-family: 'Chivo Mono';font-size: 20px;
+}
+.img{
+    
+    margin-left: 20%;
+}
+.boton{
+    background-color: rgba(194, 94, 0, 0.541);
+    border-radius: 8px;
+    font-family: 'Cutive Mono';font-size: 20px;
+}
+.boton:hover{
+    background-color: rgba(255, 226, 61, 0.541);
+    border-radius: 8px;
+    font-family: 'Cutive Mono';font-size: 20px;  
+}
+.div1{
+    background-color: rgba(207, 159, 136, 0.795);
+    text-align: center center;
+    margin-top: 2%;
+    margin-left: 20%;
+    border: solid black 2px;
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.div2{ text-align: center center;
+    margin-left: 20%;
+ background-color: rgba(235, 207, 181, 0.842);
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+.titulo{
+  
+    text-align: center;
+    font-family: 'Cutive Mono';font-size: 50px;
+}
+#demo1, #demo2{
+    font-family: 'Cutive Mono';font-size: 25px;  
+}
+i{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.boton1{
+
+    
+ line-height: 0px;
+padding-bottom: 8px;
+ height: 35px;
+    cursor: pointer;
+    background-color: rgba(194, 94, 0, 0.541);
+    border-radius: 8px;
+    font-family: 'Cutive Mono';font-size: 20px;
+
+}
+.foter{
+    
+    
+   margin-left: 0%;
+    width: 220px;
+    
+}
+.hola{background-color: rgba(253, 229, 152, 0.76);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 80%;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: center;
+   
+    left: 0%;
+    bottom: 0%;
+    width: 60%;
+
+    font-family: 'Abel';font-size: 22px;
+}

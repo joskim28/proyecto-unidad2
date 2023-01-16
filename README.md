@@ -1,4 +1,4 @@
-# proyecto-unidad2
+# Proyecto-unidad2
 
 ### Problematica:
 * Parejas sin privacidad.
